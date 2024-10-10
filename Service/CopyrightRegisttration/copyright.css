@@ -590,6 +590,11 @@ p {
     font-weight: bold;
 }
 
+.row.g-4 {
+    display: flex; /* Flex container for equal height */
+    justify-content: space-between; /* Space columns evenly */
+}
+
 .price-wrap-custom {
     background-color: #f8f8f8;
     border-radius: 10px;
@@ -597,6 +602,11 @@ p {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
     border: 2px solid #3f97cf;
+    flex: 1; /* Ensures equal height for all cards */
+    display: flex; /* Flexbox for internal layout */
+    flex-direction: column; /* Aligns children vertically */
+    justify-content: space-between; /* Distributes space evenly */
+    height: 100%; /* Full height to match */
 }
 
 .price-wrap-custom:hover {
@@ -621,7 +631,7 @@ p {
     border-radius: 1.2rem;
     text-align: center;
     color: #fff;
-    padding: 1rem 0 ;
+    padding: 1rem 0;
 }
 
 .price-rate h6 {
@@ -642,6 +652,7 @@ p {
     margin: 10px 0;
     color: gray;
 }
+
 
 
 /* Responsive Design */

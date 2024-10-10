@@ -94,3 +94,51 @@
         transform: translateY(0);
     }
 }
+/* Pricing Plan Section */
+.pricing-plan-section {
+    padding: 50px 0;
+    background-color: #f4f3f3;
+    color: black;
+}
+
+.row.g-4 {
+    display: flex; /* Ensure flex container */
+    justify-content: space-between; /* Space columns evenly */
+}
+
+/* Ensure equal height for price cards */
+.price-wrap-custom {
+    flex: 1; /* Make sure all cards grow equally */
+    display: flex; /* Flexbox for inner card layout */
+    flex-direction: column; /* Align children vertically */
+    justify-content: space-between; /* Space out children evenly */
+    height: 100%; /* Full height of container */
+    margin: 0 10px; /* Optional: add horizontal spacing */
+    background-color: #f8f8f8; /* Background for card */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px; /* Padding inside card */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+    border: 2px solid #3f97cf; /* Border color */
+}
+
+.price-wrap-custom:hover {
+    transform: translateY(-10px); /* Card raise effect */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Additional styles */
+.sub-head {
+    font-size: 1.5rem;
+    color: #3f97cf;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.main-head {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* More styles for pricing section as provided in previous responses */

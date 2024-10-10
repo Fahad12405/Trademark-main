@@ -586,11 +586,38 @@ p {
 }
 
 
-/* Pricing Section */
+    /* Pricing Section */
+   /* Pricing Plan Section */
 .pricing-plan-section {
-    padding: 60px 0;
+    padding: 50px 0;
     background-color: #f4f3f3;
     color: black;
+}
+
+.row.g-4 {
+    display: flex; /* Make the row a flex container */
+    justify-content: space-between; /* Space out the columns evenly */
+}
+
+/* Set equal height for the price cards */
+.price-wrap-custom {
+    flex: 1; /* Allow each card to grow equally */
+    display: flex; /* Make each card a flex container */
+    flex-direction: column; /* Align children vertically */
+    justify-content: space-between; /* Space out children evenly */
+    height: 100%; /* Ensure the card takes the full height of its container */
+    margin: 0 10px; /* Optional: Add margin for spacing between cards */
+    background-color: #f8f8f8; /* Card background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px; /* Padding inside the card */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+    border: 2px solid #3f97cf; /* Border color */
+}
+
+.price-wrap-custom:hover {
+    transform: translateY(-10px); /* Raise card on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
 
 .sub-head {
@@ -606,20 +633,6 @@ p {
     font-weight: bold;
 }
 
-.price-wrap-custom {
-    background-color: #f8f8f8;
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    border: 2px solid #3f97cf;
-}
-
-.price-wrap-custom:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-}
-
 .price-title h4 {
     font-size: 1.8rem;
     margin-bottom: 10px;
@@ -633,16 +646,16 @@ p {
 
 .price-rate {
     margin-bottom: 20px;
-    background-color: #3f97cf;
-    border-radius: 1.2rem;
+    background-color: #3f97cf; /* Background color for price */
+    border-radius: 1.2rem; /* Rounded corners */
     text-align: center;
-    color: #fff;
-    padding: 1rem 0 ;
+    color: #fff; /* Text color */
+    padding: 1rem 0; /* Padding inside the rate box */
 }
 
 .price-rate h6 {
-    font-size: 2.5rem;
-    color: rgb(255, 255, 255);
+    font-size: 2.5rem; /* Font size for price */
+    color: rgb(255, 255, 255); /* White color for text */
 }
 
 .price-features {
@@ -650,29 +663,30 @@ p {
 }
 
 .price-features ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: none; /* No bullet points */
+    padding: 0; /* Remove padding */
 }
 
 .price-features li {
-    margin: 10px 0;
-    color: gray;
+    margin: 10px 0; /* Spacing between features */
+    color: gray; /* Color for feature text */
 }
 
 .theme-btn {
-    background-color: white;
-    color: #0088ff;
-    padding: 12px 20px;
-    border: 2px solid #0088ff;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
+    background-color: white; /* Button background */
+    color: #0088ff; /* Button text color */
+    padding: 12px 20px; /* Button padding */
+    border: 2px solid #0088ff; /* Button border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
 }
 
 .theme-btn:hover {
-    background-color: #3f97cf;
-    color: white;
+    background-color: #3f97cf; /* Change background on hover */
+    color: white; /* Change text color on hover */
 }
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
