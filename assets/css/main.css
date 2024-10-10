@@ -304,7 +304,10 @@ header {
         top: 25%;
     }
 }
-
+body {
+    overflow-x: hidden;
+    /* Prevent horizontal scrolling */
+}
 /* Banner */
 .mainBanner {
     height: 600px;
