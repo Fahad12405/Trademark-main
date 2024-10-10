@@ -141,7 +141,8 @@ header {
     border-bottom: 1px solid black;
     text-decoration: none !important;
 }
-.sub-menu-unique li:last-child a{
+
+.sub-menu-unique li:last-child a {
     border-bottom: none;
 }
 
@@ -181,7 +182,8 @@ header {
     /* border-bottom: 1px solid black; */
     text-decoration: none !important;
 }
-.haed-menu-unique li:last-child a{
+
+.haed-menu-unique li:last-child a {
     border-bottom: none;
 }
 
@@ -319,7 +321,8 @@ header {
     text-align: center;
     color: #fff;
 }
-.content p{
+
+.content p {
     color: #dadada;
 }
 
@@ -720,6 +723,7 @@ p {
     width: calc(100% - 2rem);
 }
 
+/* User image styling */
 .user-img {
     margin-right: 1rem;
     width: 5rem;
@@ -779,6 +783,113 @@ p {
 .carousel-testimonial .owl-nav button.owl-next.disabled,
 .carousel-testimonial .owl-nav button.owl-prev.disabled {
     opacity: 0.5;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .testimonial-box {
+        flex-direction: column;
+        /* Stack items vertically on medium screens */
+        align-items: flex-start;
+        /* Align items to the start */
+        text-align: left;
+    }
+
+    .user-img {
+        margin-bottom: 1rem;
+        /* Add margin below image on smaller screens */
+        width: 4rem;
+        /* Decrease image size */
+        height: 4rem;
+    }
+
+    .quote {
+        font-size: 1.25rem;
+        /* Adjust font size for quote */
+    }
+}
+
+@media (max-width: 768px) {
+    .heading-section h2 {
+        font-size: 1.75rem;
+        /* Smaller heading on smaller screens */
+    }
+
+    .sub-heading {
+        font-size: 1.2rem;
+        /* Smaller sub-heading */
+    }
+
+    .testimonial-box {
+        padding: 1.5rem;
+        /* Reduce padding */
+        width: 100%;
+        /* Ensure full width */
+    }
+
+    .quote {
+        font-size: 1.1rem;
+        /* Smaller quote */
+    }
+
+    .name {
+        font-size: 1rem;
+        /* Smaller name font */
+    }
+
+    .position {
+        font-size: 0.9rem;
+        /* Smaller position font */
+    }
+
+    .user-img {
+        width: 4rem;
+        /* Further reduce user image size */
+        height: 4rem;
+        /* Further reduce user image size */
+        margin-right: 0;
+        /* Reset right margin */
+        margin-bottom: 1rem;
+        /* Margin below image */
+    }
+
+    .testimonial-box {
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center align for better appearance */
+        text-align: center;
+        /* Center text */
+    }
+}
+
+@media (max-width: 576px) {
+    .heading-section h2 {
+        font-size: 1.5rem;
+        /* Further reduce heading size */
+    }
+
+    .sub-heading {
+        font-size: 1rem;
+        /* Further reduce sub-heading size */
+    }
+
+    .testimonial-box {
+        padding: 1rem;
+        /* Further reduce padding */
+    }
+
+    .quote {
+        font-size: 1rem;
+        /* Further reduce quote size */
+    }
+
+    .user-img {
+        width: 3rem;
+        /* Further reduce user image size */
+        height: 3rem;
+        /* Further reduce user image size */
+    }
 }
 
 
@@ -913,8 +1024,8 @@ p {
     flex: 1;
 }
 
-.footer-logo span{
-   color: #3f97cf;
+.footer-logo span {
+    color: #3f97cf;
 }
 
 .footer-contact-info p {
@@ -1106,6 +1217,7 @@ p {
     color: #007bff;
     cursor: pointer;
 }
+
 .contact-section-modern {
     background-size: cover;
     background-position: center;
@@ -1167,7 +1279,8 @@ p {
     color: #333;
 }
 
-.contact-form-modern input, .contact-form-modern textarea {
+.contact-form-modern input,
+.contact-form-modern textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -1176,7 +1289,8 @@ p {
     color: #333;
 }
 
-.contact-form-modern input:focus, .contact-form-modern textarea:focus {
+.contact-form-modern input:focus,
+.contact-form-modern textarea:focus {
     outline: none;
     border-color: #ff7a00;
 }
@@ -1206,6 +1320,7 @@ p {
 .theme-btn-modern:hover {
     background-color: #005bb5;
 }
+
 .about-section {
     background-color: #f9f9f9;
     padding: 50px 0;
@@ -1272,12 +1387,14 @@ p {
 .theme-btn:hover {
     background-color: #005bb5;
 }
+
 .checkbox-label {
     display: flex;
     align-items: flex-start;
     font-size: 1rem;
     color: #333;
-    line-height: 1.5; /* Ensures good readability */
+    line-height: 1.5;
+    /* Ensures good readability */
 }
 
 .checkbox-label input[type="checkbox"] {
@@ -1289,7 +1406,8 @@ p {
     font-size: 0.9rem;
     color: #666;
     margin-top: 10px;
-    line-height: 1.5; /* Good spacing between the lines */
+    line-height: 1.5;
+    /* Good spacing between the lines */
 }
 
 .theme-btn-modern {
