@@ -1,0 +1,786 @@
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+    .RevSlider .slick-list.draggable {
+        padding: 0 24% 0 !important;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1399.98px) {
+    .RevSlider .slick-list.draggable {
+        padding: 0 18% 0 !important;
+    }
+
+    .contactWrap h2.main-head {
+        padding-right: 0;
+        font-size: 33px;
+    }
+
+    .contactWrap h2.main-head {
+        padding-right: 0;
+        font-size: 33px;
+    }
+
+    .price-features ul li {
+        font-size: 14px;
+    }
+
+    .price-rate {
+        padding-right: 0;
+    }
+
+    section.our-services .sec-title h2 {
+        padding: 0;
+    }
+
+    .mb_cnt h1 {
+        font-size: 50px;
+    }
+
+    h2.main-head {
+        font-size: 30px;
+    }
+
+    .serv2Boxs strong {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    img {
+        max-width: 100%;
+        height: auto
+    }
+
+    .menu-Bar {
+        display: block;
+        top: 0px
+    }
+
+
+    .menuWrap {
+        display: none;
+    }
+
+    ul.menu li {
+        display: block
+    }
+
+    ul.menu li a {
+        margin-bottom: 10px;
+        padding: 0;
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+        padding-right: 0px;
+        margin-right: 0px;
+        color: #fff;
+        font-size: 15px;
+        text-transform: capitalize
+    }
+
+    .logo img {
+        max-width: 50%
+    }
+
+    .container {
+        position: relative
+    }
+
+    header .main-header ul.menu>li {
+        display: block;
+        margin: 0px;
+        padding: 0
+    }
+
+    header .main-header ul.menu>li a {
+        color: #fff
+    }
+
+    header .main-header ul.menu>li a:before {
+        display: none
+    }
+
+   
+
+    ul.sub-menu {
+        visibility: visible;
+        position: unset;
+        opacity: 1;
+        margin-bottom: 20px;
+    }
+
+    ul.sub-menu li a {
+        text-align: left;
+    }
+}
+
+/* ipad pro */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* ipad mini */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    footer {
+        padding: 10rem 0 0; /* Adjusted padding */
+        margin-top: -8rem; /* Adjusted margin */
+      }
+    
+      .widget h5 {
+        font-size: 18px; /* Slightly smaller heading */
+        margin-bottom: 20px; /* Adjusted margin */
+      }
+    
+      .widget span {
+        font-size: 14px; /* Smaller text */
+      }
+    
+      ul.ft-nav li {
+        font-size: 14px; /* Slightly smaller link font */
+        margin-bottom: 10px; /* Reduced margin */
+      }
+    
+      .newsltr-inp input {
+        height: 48px; /* Reduced height */
+        font-size: 13px; /* Smaller input text */
+      }
+    
+      .newsltr-inp button {
+        height: 50px; /* Reduced height */
+        font-size: 13px; /* Smaller button text */
+      }
+    
+      .cpWrap {
+        flex-direction: column; /* Stack copyright and links */
+        gap: 20px; /* Adjusted gap */
+      }
+    
+      ul.ft-cp-list {
+        font-size: 14px; /* Adjusted font size */
+      }
+    
+      ul.ft-cp-list li {
+        margin-bottom: 5px; /* Reduced margin for links */
+      }
+    
+      ul.ft-cp-list li + li {
+        border-left: none; /* Remove border for small screens */
+      }
+
+    .contactWrap {
+        padding-left: 2rem;
+        /* Reduced padding */
+        padding-right: 2rem;
+        /* Reduced padding */
+    }
+
+    .contactWrap h2.main-head {
+        font-size: 1.75rem;
+        /* Decreased font size */
+        margin-bottom: 1rem;
+        /* Adjusted margin */
+    }
+
+    .contactWrap a.theme-btn {
+        font-size: 0.875rem;
+        /* Smaller button text */
+        padding: 0.5rem 1rem;
+        /* Adjusted padding */
+    }
+
+
+    /* Pricing Plan Section */
+    section.pricing-plan {
+        padding: 60px 0;
+        /* Adjust padding as needed */
+    }
+
+    section.pricing-plan .sec-title h2 {
+        font-size: 1.75rem;
+        /* Adjust font size for headings */
+        margin-bottom: 2.5rem;
+        /* Reduce bottom margin */
+        padding: 0 1rem;
+        /* Adjust padding */
+    }
+
+    .priceWrap {
+        padding: 2.5rem 0;
+        /* Adjust padding for pricing boxes */
+        margin-bottom: 1.875rem;
+        /* Add space between pricing boxes */
+    }
+
+    .price-title h4 {
+        font-size: 2rem;
+        /* Smaller font size for titles */
+    }
+
+    .price-title p {
+        width: 100%;
+        /* Allow paragraph to take full width */
+        margin: 0 auto;
+        /* Center the paragraph */
+    }
+
+    .price-rate {
+        padding: 0.625rem 1.25rem;
+        /* Adjust padding */
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        /* Space between elements in price rate */
+    }
+
+    .price-rate h6 {
+        font-size: 2.25rem;
+        /* Adjust font size */
+    }
+
+    .price-rate span {
+        font-size: 0.9375rem;
+        /* Adjust font size for span */
+        line-height: 1.6;
+        color: #fff;
+    }
+
+    .price-features ul li {
+        font-size: 0.875rem;
+        /* Smaller font size for features */
+    }
+
+    .priceWrap a.theme-btn {
+        padding: 0.625rem 1.25rem;
+        /* Adjust padding for button */
+        font-size: 1rem;
+        /* Adjust font size for button */
+        display: block;
+        /* Change to block for centering */
+        text-align: center;
+        /* Center the text */
+        margin: 0 auto;
+        /* Center the button */
+        width: fit-content;
+        /* Adjust width to fit content */
+        border-radius: 0;
+        /* Remove border radius */
+    }
+
+    section.home-about {
+        padding: 40px 0;
+        /* Adjust padding as needed */
+    }
+
+    .hm-abt-cnt {
+        text-align: center;
+        /* Center text in the about content */
+    }
+
+    .hm-abt-cnt h2 {
+        font-size: 28px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .hm-abt-cnt p {
+        width: 100%;
+        /* Allow paragraph to take full width */
+        margin: 0 auto;
+        /* Center the paragraph */
+    }
+
+    ul.hm-abt-list {
+        padding: 0;
+        /* Remove padding */
+    }
+
+    ul.hm-abt-list li {
+        padding-left: 0;
+        /* Remove padding from list items */
+        margin: 10px 0;
+        /* Add margin for spacing */
+    }
+
+    .hm-abt-imgs {
+        display: flex;
+        /* Use flexbox for layout */
+        flex-direction: column;
+        /* Stack images vertically */
+        align-items: center;
+        /* Center the images */
+    }
+
+    .hm-abt-imgs figure {
+        margin-bottom: 20px;
+        /* Space between figures */
+    }
+
+    .hm-abt-imgs figure.long-figure {
+        height: auto;
+        /* Allow height to adjust automatically */
+    }
+
+    /* Adjusting overall padding and layout for smaller screens */
+    section.our-expertise {
+        padding: 80px 0 50px;
+        position: relative;
+    }
+
+    /* Making the text container responsive */
+    .exp-cnt {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        /* Center align content for tablet */
+        min-width: auto;
+        z-index: 10;
+        /* Ensures text is on top of other elements */
+        position: relative;
+        /* Position relative to manage z-index */
+    }
+
+    /* Headline font-size adjustment */
+    .exp-cnt h2 {
+        font-size: 36px;
+    }
+
+    /* Adjusting paragraph text size */
+    .exp-cnt p {
+        width: 100%;
+        /* Make the text full width */
+        font-size: 16px;
+    }
+
+    /* Responsive box for expertise stats */
+    .exp-box {
+        height: auto;
+        padding: 1rem;
+        margin: 0 auto 20px;
+        z-index: 10;
+        /* Ensure stat boxes are also on top */
+        position: relative;
+        /* Position relative to control z-index */
+    }
+
+    /* Font-size adjustments for stat numbers */
+    .exp-box h4 {
+        font-size: 2.5rem;
+    }
+
+    /* Font-size adjustments for descriptions */
+    .exp-box h6 {
+        font-size: 20px;
+    }
+
+    /* Adjusting the image element within the expertise section */
+    .elem-exp {
+        height: 180px;
+        bottom: 50px;
+        width: 100%;
+        /* Make the image responsive */
+        z-index: 1;
+        /* Send the image behind other elements */
+    }
+
+    .elem-exp img {
+        display: none;
+        height: 100%;
+        width: 100%;
+        /* Ensure the image is fully responsive */
+        object-fit: cover;
+    }
+
+
+
+    /* Responsive service box container */
+    .servWrap {
+        padding: 1.25rem;
+        /* 20px in rem */
+        min-height: 21.875rem;
+        /* 350px in rem */
+        max-height: 100%;
+    }
+
+    /* Align the figure and its image properly */
+    .servWrap figure {
+        margin-bottom: 1.25rem;
+        /* 20px in rem */
+        min-height: 3.75rem;
+        /* 60px in rem */
+        justify-content: center;
+    }
+
+    /* Font size adjustment for headings in service boxes */
+    .servWrap h4 {
+        font-size: 1.25rem;
+        /* 20px in rem */
+        margin-bottom: 0.625rem;
+        /* 10px in rem */
+        padding-right: 0.9375rem;
+        /* 15px in rem */
+    }
+
+    /* Adjust paragraph margin for smaller devices */
+    .servWrap p {
+        margin-bottom: 1.875rem;
+        /* 30px in rem */
+    }
+
+    /* Responsive icon button */
+    .servWrap a {
+        width: 2.5rem;
+        height: 2.375rem;
+        font-size: 1.5rem;
+        bottom: 0.75rem;
+        right: 0.9375rem;
+        border-radius: 50%;
+    }
+}
+
+
+
+/* mob view */
+@media (max-width: 767px) {
+    ul.steps-progress {
+        display: flex;
+        gap: 22px;
+    }
+
+    .steps-progress li>span {
+        width: 25px;
+        height: 25px;
+        display: flex;
+        border-radius: 100px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border: 2px solid #D1D5DB;
+        background: white;
+    }
+
+    .steps-progress span::after {
+        content: "";
+        display: flex;
+        width: 25px;
+        height: 3px;
+        position: absolute;
+        left: 22px;
+        background: #D1D5DB;
+    }
+
+    .bgform h3 {
+        line-height: 1.3em;
+        font-size: 22px;
+    }
+
+    .form_wrap label {
+        margin-bottom: 16px !important;
+    }
+
+    .form-tooltip {
+        margin-bottom: 19px;
+    }
+
+    .submits-wrapper p {
+        font-size: 12px !important;
+        margin-bottom: 13px;
+    }
+
+    .form-btn-inner .theme-btn {
+        width: 100%;
+    }
+
+    .submits-wrapper {
+        margin-top: 25px;
+    }
+
+    .form_wrap span.heading.fw-600 {
+        line-height: 1.4em;
+        margin-bottom: 20px;
+    }
+
+    .add_owner {
+        width: 100%;
+        text-align: center;
+    }
+
+    .submits-wrapper button.theme-btn {
+        width: 100%;
+    }
+
+    .form-group {
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    ul.trademarksearch-option li {
+        width: 100%;
+        min-height: 180px;
+    }
+
+    .expedited-box {
+        padding: 40px 30px 30px;
+        text-align: center;
+        line-height: 1.4em;
+    }
+
+    .expedited-box h6 {
+        text-align: center;
+    }
+
+    .expedited-box h6 span {
+        margin: 0 auto;
+    }
+
+    .form_wrap label {
+        line-height: 1.4em;
+        text-align: center;
+    }
+
+    .form-title .btn-normal {
+        width: 100%;
+    }
+
+
+
+
+
+    ul.sub-menu li a {
+        padding: 10px;
+        text-align: center;
+        margin: 0;
+        background: #0f4c97e8;
+        color: #fff !important;
+    }
+
+    ul.sub-menu li {
+        border-color: #2e68af;
+    }
+
+    section.serv-detail {
+        padding: 30px 0;
+    }
+
+    section.serv-detail a.theme-btn {
+        margin-bottom: 20px;
+    }
+
+    section.our-expertise {
+        padding: 50px 0;
+    }
+
+    section.service-sec2 {
+        padding: 50px 0;
+    }
+
+    .serv2Boxs {
+        margin: 0;
+    }
+
+    section.service-sec2 {}
+
+    section.service-sec2 .ms-5 {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100%;
+    }
+
+    section.service-sec2 .mb-4 {
+        margin: 17px 0 0 0 !important;
+        padding: 0 !important;
+    }
+
+    .why-cnt p {
+        margin-bottom: 30px;
+    }
+
+
+
+    ul.top-hdr-cta li+li {
+        margin-left: 12px;
+    }
+
+    ul.top-hdr-cta li {
+        font-size: 11px;
+    }
+
+
+    .mb_cnt h1 {
+        font-size: 36px;
+    }
+
+    .mb_cnt p {
+        padding: 0;
+    }
+
+    section.mainBanner {
+        height: 440px;
+    }
+
+    a.logo {
+        font-size: 20px;
+    }
+
+    h2.main-head {
+        font-size: 22px;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    ul.hm-abt-list {
+        margin-bottom: 29px;
+    }
+
+    section.home-about .hm-abt-cnt {
+        margin-bottom: 2rem;
+    }
+
+
+
+    figure.long-figure {
+        height: auto;
+    }
+
+    section.our-services .sec-title h2 {
+        font-size: 22px;
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+
+    .servWrap {
+        margin-bottom: 16px;
+        min-height: auto;
+        padding-bottom: 70px;
+    }
+
+    .servWrap p {
+        margin-bottom: 10px;
+    }
+
+    section.our-services {
+        padding: 3rem 0;
+    }
+
+    .exp-cnt {
+        padding-left: 0;
+        min-width: auto;
+    }
+
+    .exp-box h4 {
+        font-size: 4rem;
+    }
+
+    .elem-exp {
+        position: unset;
+        width: 100%;
+        margin-top: 60px;
+        padding: 0 15px;
+    }
+
+    section.pricing-plan .sec-title h2 {
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    .price-rate {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .price-features {
+        padding: 0 15px;
+        margin-bottom: 40px;
+    }
+
+    .price-title {
+        padding: 0 15px;
+    }
+
+    .price-features ul li {
+        font-size: 14px;
+        padding-left: 22px;
+    }
+
+    .price-features ul li+li {
+        margin-top: 8px;
+    }
+
+    .priceWrap {
+        margin-bottom: 16px;
+    }
+
+    section.cta-sec {
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    section.cta-sec h2.main-head {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .cta-btns a:last-child {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    section.testimonial-sec {
+        padding: 3rem 0;
+    }
+
+    .RevSlider .slick-list.draggable {
+        padding: 0 !important;
+    }
+
+    .revWrap {
+        padding: 16px;
+        display: block;
+    }
+
+    .RevSlider .arr-left {
+        left: 20%;
+    }
+
+    .RevSlider .arr-right {
+        right: 20%;
+    }
+
+    .contactWrap {
+        padding: 50px 12px 20px;
+    }
+
+    .contactWrap:after {
+        height: 100%;
+    }
+
+    .contactWrap h2.main-head {
+        padding-right: 0;
+        font-size: 22px;
+    }
+
+    .contactWrap a.theme-btn {
+        margin-bottom: 1rem;
+    }
+
+    ul.ft-nav li {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    ul.ft-nav {
+        margin-bottom: 20px;
+    }
+
+    .widget h5 {
+        margin-bottom: 15px;
+    }
+
+    .cpWrap {
+        display: block;
+        padding: 1rem 0;
+    }
+
+    .cpWrap>p {
+        margin-bottom: 10px;
+    }
+}

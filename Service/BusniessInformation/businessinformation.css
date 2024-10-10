@@ -1,0 +1,322 @@
+
+body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.mainBanner {
+  position: relative; /* Ensure positioning context */
+  height: 100vh; /* Set the height to 100% of the viewport */
+  overflow: hidden; /* Prevent overflow */
+  display: flex; /* Center content */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  text-align: center; /* Center text */
+  background: url('/assets/images/banner/bg-about.jpg') no-repeat center center/cover; /* Add a background image if needed */
+}
+
+.content {
+  z-index: 1; /* Ensure content is above any background */
+  color: white; /* Change to a suitable color for visibility */
+}
+
+
+
+.services-section {
+    background: linear-gradient(to right, #87CEEB, #ffffff); /* Sky blue gradient */
+    padding: 80px 0;
+}
+
+.sub-head {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000; /* Sky blue color */
+    margin-bottom: 10px;
+}
+.sub-head h2{
+  color: #000;
+}
+.main-head {
+    font-size: 36px;
+    font-weight: bold;
+    color: #4682B4; /* Darker blue shade */
+    margin-bottom: 20px;
+}
+
+.text-muted {
+    color: #555; /* Muted text color */
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.service-card {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+    font-size: 40px; /* Adjust icon size */
+    color: #1E90FF; /* Sky blue color for icons */
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #fff; /* Darker blue shade for headings */
+}
+
+p {
+    color: #777; /* Text color */
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .service-card {
+        padding: 30px;
+    }
+
+    .main-head {
+        font-size: 28px;
+    }
+}
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  h2.main-heading {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #002147;
+  }
+  
+  h6.sub-heading {
+    font-size: 1.2rem;
+    color: #007bff;
+    text-transform: uppercase;
+  }
+  
+  /* About Section */
+  .about-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+  }
+  
+  .about-image {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .about-content h3 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-content ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .about-content ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+  }
+  
+  .about-content ul li:before {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #007bff;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .btn-outline-theme {
+    border: 2px solid #007bff;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  .btn-outline-theme:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Services Section */
+  .services-section {
+    padding: 60px 0;
+  }
+  
+  .service-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Expertise Section */
+  .expertise-section {
+    background-color: #f1f3f5;
+    padding: 60px 0;
+  }
+  
+  .exp-card-custom {
+    background: #007bff;
+    padding: 40px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .exp-card-custom h4 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .exp-card-custom h6 {
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
+  /* Contact Us Section */
+.contact-section-modern {
+  padding: 5rem 0;
+  background-color: #f4f4f4;
+  position: relative;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #3f97cf;
+}
+
+/* Full-Screen Container */
+.container-fluid.full-screen {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Form Styles */
+.contact-form-modern {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group Styles */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #3f97cf;
+  outline: none;
+}
+
+/* Button Styles */
+.theme-btn-modern {
+  background: linear-gradient(90deg, #3f97cf, #000);
+  padding: 15px 30px;
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  text-align: center;
+  display: inline-block;
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  border: none;
+}
+
+.theme-btn-modern:hover {
+  background: linear-gradient(90deg, #000, #3f97cf);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-heading {
+      font-size: 2.2rem;
+  }
+
+  .theme-btn-modern {
+      padding: 10px 20px;
+      font-size: 1rem;
+  }
+}
+
+/* Animation Keyframes */
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}

@@ -1,0 +1,68 @@
+.services-section {
+    background: linear-gradient(to right, #87CEEB, #ffffff); /* Sky blue gradient */
+    padding: 80px 0;
+}
+
+.sub-head {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1E90FF; /* Sky blue color */
+    margin-bottom: 10px;
+}
+
+.main-head {
+    font-size: 36px;
+    font-weight: bold;
+    color: #4682B4; /* Darker blue shade */
+    margin-bottom: 20px;
+}
+
+.text-muted {
+    color: #555; /* Muted text color */
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.service-card {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+    font-size: 40px; /* Adjust icon size */
+    color: #1E90FF; /* Sky blue color for icons */
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #fff; /* Darker blue shade for headings */
+}
+
+p {
+    color: #777; /* Text color */
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .service-card {
+        padding: 30px;
+    }
+
+    .main-head {
+        font-size: 28px;
+    }
+}

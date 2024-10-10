@@ -1,0 +1,96 @@
+/* Contact Us Section */
+.contact-section-modern {
+    padding: 5rem 0;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #3f97cf;
+}
+
+/* Full-Screen Container */
+.container-fluid.full-screen {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Form Styles */
+.contact-form-modern {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #3f97cf;
+    outline: none;
+}
+
+/* Button Styles */
+.theme-btn-modern {
+    background: linear-gradient(90deg, #3f97cf, #000);
+    padding: 15px 30px;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    text-align: center;
+    display: inline-block;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.theme-btn-modern:hover {
+    background: linear-gradient(90deg, #000, #3f97cf);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-heading {
+        font-size: 2.2rem;
+    }
+
+    .theme-btn-modern {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
+
+/* Animation Keyframes */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
