@@ -311,6 +311,36 @@ header {
     height: 600px;
     position: relative;
     overflow: hidden;
+    background-color: #000; /* Fallback in case the image doesn't load */
+}
+
+/* Blurred background image using a pseudo-element */
+.mainBanner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../assets/images/banner/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(1px); /* Blur effect applied to the background image */
+    opacity: 0.8; /* Adjusts the visibility of the image */
+    z-index: 0; /* Places the background behind the content */
+    animation: backgroundAnimation 15s ease infinite;
+}
+
+/* Overlay for better readability */
+.mainBanner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+    z-index: 1; /* Ensures the overlay sits above the background but below the content */
 }
 
 .content {
@@ -320,10 +350,11 @@ header {
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
+    z-index: 2; /* Keeps the content above the background and overlay */
 }
 
 .content p {
-    color: #dadada;
+    color: #fdf9f9;
 }
 
 h1 {
@@ -350,12 +381,6 @@ p {
     }
 }
 
-/* Example CSS for a gradient animation */
-.mainBanner {
-    background: url(../assets/images/banner/bg-banner.jpg);
-    /* background-size: 300% 300%; */
-    animation: backgroundAnimation 15s ease infinite;
-}
 
 
 /* About */
