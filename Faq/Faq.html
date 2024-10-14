@@ -64,7 +64,7 @@
                             <li><a href="Faq.html">FAQs</a></li>
                             <li><a href="../Contact/contact.html">Contact Us</a></li>
                         </ul>
-                        <a href="#" class="theme-btn-unique"data-title="Learn More About Us" data-price="$35"
+                        <a href="#" class="theme-btn-unique"data-title="Basic" data-price="$35"
                         onclick="openModal(this);">Connect With Us</a>
                     </nav>
 
@@ -96,8 +96,8 @@
                                     <li><a href="Faq.html">FAQs</a></li>
                                     <li><a href="../Contact/contact.html">Contact Us</a></li>
                                 </ul>
-                                <a href="#" class="theme-btn-unique"data-title="Learn More About Us" data-price="$35"
-                        onclick="openModal(this);">Connect With Us</a>
+                                <a href="#" class="theme-btn-unique"data-title="Basic" data-price="$35"
+                                onclick="openModal(this);">Connect With Us</a>
                             </nav>
                         </div>
                     </div>
@@ -116,8 +116,7 @@
     <div class="content">
         <h1>Have Questions? We Have Answers!</h1>
         <p>Explore our FAQs to find the information you need about our services.</p>
-        <a href="javascript:;" class="theme-btn popBtn" data-title="Explore FAQs" data-price="$0"
-            onclick="openModal(this);">Get Started</a>
+       
     </div>
 </section>
 
@@ -272,66 +271,109 @@
 
 
 
-        <!-- Pricing MOdal -->
-        <div style="display: none;" class="popupform popuptm" id="popupform_cr">
-            <div class="modal-body">
-                <a id="formClose" class="closePop"><span>X</span></a>
-                <div class="popup-content">
-                    <h2 id="modal-title">Basic <br>in Just <span id="modal-price">$35</span></h2>
-                    <p>Register your trademark and save yourself from the risk of losing thousands of dollars in
-                        lawsuits and rebranding efforts.</p>
-                    <form onsubmit="submitForm(event)" class="popupform_cr js-recaptcha-form" id="form1">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <input type="text" class="required cn_pn" required="" name="customer_full_name"
-                                    placeholder="Your Name">
-                            </div>
-                            <div class="col-md-12">
-                                <input type="email" class="required email" required="" name="customer_email"
-                                    placeholder="Your Email">
-                            </div>
-                            <div class="col-md-12">
-                                <input type="tel" class="required number ftpn" required="" name="customer_phone"
-                                    minlength="7" maxlength="14" placeholder="Your Phone">
-                                <input type="hidden" required="" name="leadsource" value="">
-                                <input type="hidden" name="source" id="" value="">
-                                <input type="hidden" name="gclid" id="" value="">
-                                <input type="hidden" name="msclkid" id="" value="">
-                                <input type="hidden" name="__utm_source" id="" value="">
-                                <input type="hidden" name="__utm_campaign" id="" value="">
-                                <input type="hidden" name="__utm_content" id="" value="">
-                                <input type="hidden" name="__utm_term" id="" value="">
-                                <input type="hidden" name="__device" id="" value="">
-                                <input type="hidden" name="__keyword" id="" value="">
-                                <input type="hidden" name="__matchtype" id="" value="">
-                            </div>
-                            <div class="col-md-12 text-center">
-                                <div class="checkbox-wrap">
-                                    <input type="checkbox" id="check1" name="checkbox1" value="YES">
-                                    <label for="check1"> I agree with Brandmark Forte Policy and provide my consent to
-                                        receive B2B marketing communications from Brandmark Forte</label>
-                                </div>
-                                <div class="checkbox-wrap">
-                                    <input type="checkbox" id="check2" name="checkbox2" value="YES">
-                                    <label for="check2"> Message and data rates may apply. Reply STOP to opt-out, Text
-                                        Help for help. 4 messages/month.</label>
-                                </div>
-                                <div class="checkbox-wrap">
-                                    <input type="checkbox" id="check3" name="checkbox3" value="YES">
-                                    <label for="check3"> I Agree and accept <a href="terms-and-conditions.php">Terms
-                                            Conditions</a> <a href="privacy-policy.php">Privacy Policy</a></label>
-                                </div>
-                            </div>
-                            <div class="col-md-12 text-center">
-                                <input type="hidden" name="g-recaptcha-response">
-                                <input type="submit" value="submit">
-                            </div>
-                        </div>
-                    </form>
+       <!-- Pricing MOdal -->
+       <div style="display: none" class="popupform popuptm" id="popupform_cr">
+        <div class="modal-body">
+          <a id="formClose" class="closePop"><span>X</span></a>
+          <div class="popup-content">
+            <h2 id="modal-title">
+              Basic <br />in Just <span id="modal-price">$35</span>
+            </h2>
+            <p>
+              Register your trademark and save yourself from the risk of losing
+              thousands of dollars in lawsuits and rebranding efforts.
+            </p>
+            <form
+              onsubmit="submitForm(event)"
+              class="popupform_cr js-recaptcha-form"
+              id="form1"
+            >
+              <div class="row">
+                <div class="col-md-12">
+                  <input
+                    type="text"
+                    class="required cn_pn"
+                    required=""
+                    name="customer_full_name"
+                    placeholder="Your Name"
+                  />
                 </div>
-            </div>
-        </div>
+                <div class="col-md-12">
+                  <input
+                    type="email"
+                    class="required email"
+                    required=""
+                    name="customer_email"
+                    placeholder="Your Email"
+                  />
+                </div>
+                <div class="col-md-12">
+                  <input
+                    type="tel"
+                    class="required number ftpn"
+                    required=""
+                    name="customer_phone"
+                    minlength="7"
+                    maxlength="14"
+                    placeholder="Your Phone"
+                  />
+                  <input type="hidden" required="" name="leadsource" value="" />
+                  <input type="hidden" name="source" id="" value="" />
+                  <input type="hidden" name="gclid" id="" value="" />
+                  <input type="hidden" name="msclkid" id="" value="" />
+                  <input type="hidden" name="__utm_source" id="" value="" />
+                  <input type="hidden" name="__utm_campaign" id="" value="" />
+                  <input type="hidden" name="__utm_content" id="" value="" />
+                  <input type="hidden" name="__utm_term" id="" value="" />
+                  <input type="hidden" name="__device" id="" value="" />
+                  <input type="hidden" name="__keyword" id="" value="" />
+                  <input type="hidden" name="__matchtype" id="" value="" />
+                </div>
+                <div class="col-md-12 text-center">
+                  <div class="checkbox-wrap">
+                    <input
+                      type="checkbox"
+                      id="check1"
+                      name="checkbox1"
+                      value="YES"
+                    />
+                    <label for="check1">
+                      I agree with Trademark-Gov Policy and provide my consent
+                      to receive B2B marketing communications from Trademark-Gov</label
+                    >
+                  </div>
+                  <div class="checkbox-wrap">
+                    <input
+                      type="checkbox"
+                      id="check2"
+                      name="checkbox2"
+                      value="YES"
+                    />
+                    <label for="check2">
+                      Message and data rates may apply. Reply STOP to opt-out,
+                      Text Help for help. 4 messages/month.</label
+                    >
+                  </div>
+                  <div class="checkbox-wrap">
+                    <input
+                      type="checkbox"
+                      id="check3"
+                      name="checkbox3"
+                      value="YES"
+                    />
+                    <label for="check3"> I Agree and accept <a >Terms Conditions</a> & <a >Privacy Policy</a></label>
 
+                  </div>
+                </div>
+                <div class="col-md-12 text-center">
+                  <input type="hidden" name="g-recaptcha-response" />
+                  <input type="submit" value="submit" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
 
 
         <!-- <script src="https://www.google.com/recaptcha/api.js?render=6LcgqvwpAAAAAIXNvVWEAo0Yv4V33ouno3l2lVRN"></script> -->

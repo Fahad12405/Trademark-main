@@ -1151,6 +1151,18 @@ p {
 }
 
 /* Pricing Form */
+
+.checkbox-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust space between each checkbox */
+}
+
+.checkbox-wrap input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and label */
+    transform: scale(1.2); /* Optional: To make the checkbox larger */
+}
+
 .popupform {
     display: flex;
     justify-content: center;

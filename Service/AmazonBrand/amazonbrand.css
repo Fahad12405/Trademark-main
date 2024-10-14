@@ -1175,6 +1175,18 @@ p {
 
 
 /* Pricing Form */
+
+.checkbox-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust space between each checkbox */
+}
+
+.checkbox-wrap input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and label */
+    transform: scale(1.2); /* Optional: To make the checkbox larger */
+}
+
 .popupform {
     display: flex;
     justify-content: center;
@@ -1187,8 +1199,7 @@ p {
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 1000;
     overflow-y: auto;
-    scroll-behavior: smooth;
-    /* Ensures smooth scrolling */
+    scroll-behavior: smooth; /* Ensures smooth scrolling */
 }
 
 .modal-body {
@@ -1284,11 +1295,9 @@ p {
     .modal-body {
         padding: 20px;
     }
-
     .popup-content h2 {
         font-size: 22px;
     }
-
     .popup-content p {
         font-size: 14px;
     }
@@ -1298,12 +1307,11 @@ p {
     .modal-body {
         padding: 15px;
     }
-
     .popup-content h2 {
         font-size: 20px;
     }
-
     .popup-content p {
         font-size: 13px;
     }
 }
+
