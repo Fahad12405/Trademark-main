@@ -116,7 +116,7 @@ document.getElementById('registrationForm').addEventListener('submit', async fun
 
 
     // Stripe Payment Method
-    const stripe = await Stripe("pk_test_51Q5CQjBSRlxFwzyWZZr67eMkwml3WUCZdRg4bcW5mtBx1NffoI3wDxNJ7QPAzEVUczP8ntAnMPmlDYeTyWEBpjl100xLHDUUps");
+    const stripe = await Stripe("pk_live_51PsYF5Rs59uQ3D7xM0547PGcNYornB4y44BQXMqErO3ZhIsJ4kn2pD29vEcpA1woj6E5OTtgdaUadA3OiMv68TdE00SLVGmQH7");
     payNow.innerText = "Processing...";
     const body = {
         packege: selectedPackageDetails // Package details from the form
