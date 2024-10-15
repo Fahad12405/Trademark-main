@@ -87,7 +87,7 @@ Packege.forEach(radio => {
 });
 
 let payNow = document.getElementById('payNow');
-let apiURL = "https://stripe-backend-hew1-rk050zab9-fahadalams-projects.vercel.app/api/create-checkout-session"
+let apiURL = "https://stripe-backend-iota.vercel.app"
 
 document.getElementById('registrationForm').addEventListener('submit', async function (event) {
     event.preventDefault();
