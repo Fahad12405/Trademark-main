@@ -29,6 +29,7 @@ window.onkeydown = function(event) {
 function submitForm(event) {
     event.preventDefault(); // Prevent the default form submission
 
+    
     // Optionally, you can gather the form data here if needed
     const formData = {
         name: document.querySelector('input[name="customer_full_name"]').value,
