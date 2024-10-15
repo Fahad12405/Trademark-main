@@ -40,5 +40,5 @@ function submitForm(event) {
     // You can process formData or send it via EmailJS here if needed
 
     // Redirect to the specified page
-    window.location.href = "BrandmarkFote/brandmarkefort.html"; // Redirect to this URL
+    window.location.href = "TradeMarkGov/trademarkgov.html"; // Redirect to this URL
 }
