@@ -1137,8 +1137,7 @@ p {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 1000;
-    overflow-y: auto;
-    scroll-behavior: smooth; /* Ensures smooth scrolling */
+    overflow-y: scroll;
 }
 
 .modal-body {
@@ -1149,7 +1148,8 @@ p {
     padding: 30px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
     text-align: center;
-    margin: 1rem auto;
+    margin: 1rem auto 0 auto;
+    overflow-y: scroll !important;
 }
 
 .closePop {
@@ -1229,27 +1229,6 @@ p {
     transform: translateY(-3px);
 }
 
-/* Responsive Adjustments */
-@media screen and (max-width: 768px) {
-    .modal-body {
-        padding: 20px;
-    }
-    .popup-content h2 {
-        font-size: 22px;
-    }
-    .popup-content p {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .modal-body {
-        padding: 15px;
-    }
-    .popup-content h2 {
-        font-size: 20px;
-    }
-    .popup-content p {
-        font-size: 13px;
-    }
+.popupform_cr .text-center {
+    margin-top: 20px;
 }

@@ -177,14 +177,15 @@
 
 
     <!-- Pricing MOdal -->
-    <div style="display: none;" class="popupform popuptm" id="popupform_cr">
+    <div style="display: none;" class="popupform popuptm" id="popupform_cr" data-aos="fade-up">
         <div class="modal-body">
             <a id="formClose" class="closePop"><span>X</span></a>
             <div class="popup-content">
                 <h2 id="modal-title">Basic <br>in Just <span id="modal-price">$35</span></h2>
                 <p>Register your trademark and save yourself from the risk of losing thousands of dollars in
                     lawsuits and rebranding efforts.</p>
-                <form onsubmit="submitForm(event)" class="popupform_cr js-recaptcha-form" id="form1">
+                <form action="https://www.brandmarkforte.com/crm/include/steps_new/lead.php" method="POST"
+                    class="popupform_cr js-recaptcha-form" id="form1">
                     <div class="row">
                         <div class="col-md-12">
                             <input type="text" class="required cn_pn" required="" name="customer_full_name"
@@ -459,21 +460,20 @@
                 <div class="footer-links">
                     <h5>Quick Links</h5>
                     <ul>
-                        <li><a href="../../index.html">Home</a></li>
-                        <li><a href="../../About/about.html">About Us</a></li>
-                        <li><a href="../../Faq/Faq.html">FAQs</a></li>
-                        <li><a href="../../Contact/contact.html">Contact Us</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about-us.php">About Us</a></li>
+                        <li><a href="/faqs.php">FAQs</a></li>
+                        <li><a href="/contact-us.php">Contact Us</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-services">
                     <h5>Our Services</h5>
                     <ul>
-                        <li><a href="../Trademark-Registration/trademark-registration.html">Trademark Registration</a>
-                        </li>
-                        <li><a href="../CopyrightRegisttration/copyright.html">Copyright Registration</a></li>
-                        <li><a href="../BusniessInformation/busniessinformation.html">Business Formation</a></li>
-                        <li><a href="amazonbrand.html">Amazon Brand Registry</a></li>
+                        <li><a href="/trademark-registration.php">Trademark Registration</a></li>
+                        <li><a href="/copyright-registration.php">Copyright Registration</a></li>
+                        <li><a href="/business-formation.php">Business Formation</a></li>
+                        <li><a href="/amazon-brand.php">Amazon Brand Registry</a></li>
                     </ul>
                 </div>
             </div>
@@ -574,23 +574,6 @@
             });
 
         });
-
-        function submitForm(event) {
-            event.preventDefault(); // Prevent the default form submission
-
-            // Optionally, you can gather the form data here if needed
-            const formData = {
-                name: document.querySelector('input[name="customer_full_name"]').value,
-                email: document.querySelector('input[name="customer_email"]').value,
-                phone: document.querySelector('input[name="customer_phone"]').value,
-                // Add any other necessary fields here
-            };
-
-            // You can process formData or send it via EmailJS here if needed
-
-            // Redirect to the specified page
-            window.location.href = "../../BrandmarkFote/brandmarkefort.html"; // Redirect to this URL
-        }
 
 
     </script>
