@@ -8,7 +8,32 @@ function showStep(step) {
     }
     document.getElementById(`step-${step}`).classList.add('active');
 }
+const packageObject = {
+    description: "abc",
+    name: "new",
+    price: 123 // Make sure price is a number, not a string
+  };
+  
+async function createCheckoutSession() {
+    try {
+        const response = await fetch('https://tradehub-ss.vercel.app/create-checkout-session', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ packege: packageObject }), // Send line items as request body
+        });
 
+      
+
+        const data = await response.json(); // Parse JSON response
+        return data.id; // Return session ID or any other data you need
+    } catch (error) {
+        console.error('Error creating checkout session:', error);
+        // Handle the error appropriately (e.g., show a message to the user)
+        return null;
+    }
+}
 function nextStep(step) {
     if (validateStep(currentStep)) {
         currentStep = step;
@@ -87,7 +112,9 @@ Packege.forEach(radio => {
 });
 
 let payNow = document.getElementById('payNow');
-let apiURL = "https://stripe-backend-iota.vercel.app"
+// let apiURL = "https://stripe-backend-iota.vercel.app"
+let apiURL = "https://backend-code-trademark.vercel.app"
+
 
 document.getElementById('registrationForm').addEventListener('submit', async function (event) {
     event.preventDefault();
